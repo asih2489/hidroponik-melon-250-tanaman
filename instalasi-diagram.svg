@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <!-- Background -->
+  <rect width="1400" height="900" fill="#f0f8ff"/>
+  
+  <!-- Title -->
+  <text x="700" y="30" font-size="28" font-weight="bold" text-anchor="middle" fill="#1a5f1f">
+    DIAGRAM INSTALASI HIDROPONIK MELON - 250 TANAMAN
+  </text>
+  
+  <!-- Legend -->
+  <g id="legend">
+    <rect x="20" y="50" width="200" height="120" fill="white" stroke="#333" stroke-width="1"/>
+    <text x="30" y="70" font-size="12" font-weight="bold" fill="#333">LEGENDA:</text>
+    <line x1="30" y1="80" x2="60" y2="80" stroke="#1a5f1f" stroke-width="3"/>
+    <text x="70" y="85" font-size="11" fill="#333">Gully (NFT)</text>
+    
+    <circle cx="45" cy="105" r="5" fill="#4285f4"/>
+    <text x="70" y="110" font-size="11" fill="#333">Pompa Air</text>
+    
+    <circle cx="45" cy="130" r="5" fill="#ff6b6b"/>
+    <text x="70" y="135" font-size="11" fill="#333">Reservoir</text>
+  </g>
+  
+  <!-- RESERVOIR SECTION -->
+  <g id="reservoir">
+    <rect x="1100" y="100" width="250" height="150" fill="#e8f5e9" stroke="#1a5f1f" stroke-width="2"/>
+    <text x="1225" y="125" font-size="14" font-weight="bold" text-anchor="middle" fill="#1a5f1f">RESERVOIR</text>
+    <text x="1225" y="150" font-size="11" text-anchor="middle" fill="#333">Kapasitas: 500-1000L</text>
+    <text x="1225" y="170" font-size="11" text-anchor="middle" fill="#333">pH: 6.0-6.8</text>
+    <text x="1225" y="190" font-size="11" text-anchor="middle" fill="#333">EC: 1.5-2.0 dS/m</text>
+    <text x="1225" y="210" font-size="11" text-anchor="middle" fill="#333">Temp: 25-28°C</text>
+  </g>
+  
+  <!-- POMPA -->
+  <circle cx="1225" cy="280" r="20" fill="#4285f4" stroke="#1a5f1f" stroke-width="2"/>
+  <text x="1225" y="285" font-size="10" font-weight="bold" text-anchor="middle" fill="white">POMPA</text>
+  <text x="1225" y="320" font-size="10" text-anchor="middle" fill="#333">1-2 HP</text>
+  <text x="1225" y="335" font-size="10" text-anchor="middle" fill="#333">1000-2000 L/jam</text>
+  
+  <!-- MAIN DISTRIBUTION PIPE -->
+  <line x1="1225" y1="300" x2="1225" y2="400" stroke="#1a5f1f" stroke-width="4"/>
+  <line x1="1225" y1="400" x2="50" y2="400" stroke="#1a5f1f" stroke-width="4"/>
+  
+  <!-- 9 GULLY LAYOUT (Top View) -->
+  <g id="gullies">
+    <!-- Gully 1 -->
+    <line x1="50" y1="400" x2="300" y2="400" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="175" y="420" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 1</text>
+    <text x="175" y="437" font-size="10" text-anchor="middle" fill="#666">Tanaman 1-28</text>
+    
+    <!-- Gully 2 -->
+    <line x1="50" y1="460" x2="300" y2="460" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="175" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 2</text>
+    <text x="175" y="497" font-size="10" text-anchor="middle" fill="#666">Tanaman 29-56</text>
+    
+    <!-- Gully 3 -->
+    <line x1="50" y1="520" x2="300" y2="520" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="175" y="540" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 3</text>
+    <text x="175" y="557" font-size="10" text-anchor="middle" fill="#666">Tanaman 57-84</text>
+    
+    <!-- Gully 4 -->
+    <line x1="350" y1="400" x2="600" y2="400" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="475" y="420" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 4</text>
+    <text x="475" y="437" font-size="10" text-anchor="middle" fill="#666">Tanaman 85-112</text>
+    
+    <!-- Gully 5 -->
+    <line x1="350" y1="460" x2="600" y2="460" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="475" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 5</text>
+    <text x="475" y="497" font-size="10" text-anchor="middle" fill="#666">Tanaman 113-140</text>
+    
+    <!-- Gully 6 -->
+    <line x1="350" y1="520" x2="600" y2="520" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="475" y="540" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 6</text>
+    <text x="475" y="557" font-size="10" text-anchor="middle" fill="#666">Tanaman 141-168</text>
+    
+    <!-- Gully 7 -->
+    <line x1="650" y1="400" x2="900" y2="400" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="775" y="420" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 7</text>
+    <text x="775" y="437" font-size="10" text-anchor="middle" fill="#666">Tanaman 169-196</text>
+    
+    <!-- Gully 8 -->
+    <line x1="650" y1="460" x2="900" y2="460" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="775" y="480" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 8</text>
+    <text x="775" y="497" font-size="10" text-anchor="middle" fill="#666">Tanaman 197-224</text>
+    
+    <!-- Gully 9 -->
+    <line x1="650" y1="520" x2="900" y2="520" stroke="#1a5f1f" stroke-width="6" stroke-dasharray="5,5"/>
+    <text x="775" y="540" font-size="11" font-weight="bold" text-anchor="middle" fill="#333">GULLY 9</text>
+    <text x="775" y="557" font-size="10" text-anchor="middle" fill="#666">Tanaman 225-250</text>
+  </g>
+  
+  <!-- Return Pipe -->
+  <line x1="50" y1="580" x2="50" y2="650" stroke="#ff6b6b" stroke-width="3"/>
+  <line x1="300" y1="580" x2="300" y2="650" stroke="#ff6b6b" stroke-width="3"/>
+  <line x1="600" y1="580" x2="600" y2="650" stroke="#ff6b6b" stroke-width="3"/>
+  <line x1="900" y1="580" x2="900" y2="650" stroke="#ff6b6b" stroke-width="3"/>
+  
+  <line x1="50" y1="650" x2="900" y2="650" stroke="#ff6b6b" stroke-width="4"/>
+  <line x1="900" y1="650" x2="1100" y2="650" stroke="#ff6b6b" stroke-width="4"/>
+  <line x1="1100" y1="650" x2="1100" y2="250" stroke="#ff6b6b" stroke-width="4"/>
+  
+  <!-- Return label -->
+  <text x="950" y="670" font-size="11" font-weight="bold" fill="#ff6b6b">PIPA RETURN</text>
+  
+  <!-- SPECIFICATIONS BOX -->
+  <g id="specs">
+    <rect x="20" y="700" width="1360" height="170" fill="white" stroke="#333" stroke-width="2"/>
+    <text x="30" y="725" font-size="14" font-weight="bold" fill="#1a5f1f">SPESIFIKASI TEKNIS</text>
+    
+    <!-- Left column -->
+    <text x="30" y="755" font-size="11" font-weight="bold" fill="#333">GULLY:</text>
+    <text x="30" y="775" font-size="10" fill="#333">• Jumlah: 9 gully</text>
+    <text x="30" y="792" font-size="10" fill="#333">• Panjang: 10 meter setiap gully</text>
+    <text x="30" y="809" font-size="10" fill="#333">• Jarak antar tanaman: 30-35 cm</text>
+    <text x="30" y="826" font-size="10" fill="#333">• Tanaman per gully: 28-29 tanaman</text>
+    <text x="30" y="843" font-size="10" fill="#333">• Material: PVC 3-4 inci (Nutrient Film Technique)</text>
+    
+    <!-- Middle column -->
+    <text x="380" y="755" font-size="11" font-weight="bold" fill="#333">SISTEM POMPA & PIPA:</text>
+    <text x="380" y="775" font-size="10" fill="#333">• Pompa: 1-2 HP (1000-2000 L/jam)</text>
+    <text x="380" y="792" font-size="10" fill="#333">• Pipa Utama: PVC 1.5-2 inci</text>
+    <text x="380" y="809" font-size="10" fill="#333">• Pipa Cabang: PVC 1 inci</text>
+    <text x="380" y="826" font-size="10" fill="#333">• Filter: 100-200 mesh</text>
+    <text x="380" y="843" font-size="10" fill="#333">• Flow rate per gully: 1-2 L/menit</text>
+    
+    <!-- Right column -->
+    <text x="730" y="755" font-size="11" font-weight="bold" fill="#333">RESERVOIR & NUTRISI:</text>
+    <text x="730" y="775" font-size="10" fill="#333">• Kapasitas: 500-1000 L</text>
+    <text x="730" y="792" font-size="10" fill="#333">• Aerasi: Air stone + aerator</text>
+    <text x="730" y="809" font-size="10" fill="#333">• Nutrien: AB Mix hidroponik</text>
+    <text x="730" y="826" font-size="10" fill="#333">• pH: 6.0-6.8 (ukur 2x sehari)</text>
+    <text x="730" y="843" font-size="10" fill="#333">• EC: 1.5-2.0 dS/m (ukur 1x sehari)</text>
+  </g>
+</svg>
